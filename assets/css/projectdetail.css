@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap");
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 50px;
+}
+
+.projectinfo {
+    display: flex;
+    gap: 100px;
+}
+
+.lefts {
+    width: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
+}
+
+.lefts img{
+    width: 100%;
+}
+
+.rights {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ul, ul li {
+    display: flex;
+}
+
+.rights .duration{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rights .duration ul{
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rights .duration span{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.rights .duration ul li {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.rights ul li i{
+    font-size: 1.5rem !important;
+}
+
+.rights ul li span{
+    font-size: 1rem ip !important;
+    font-weight: normal !important;
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.technology .wrapper-tech{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.technology span{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.tech ul{
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+}
+
+.tech ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tech ul li span{
+    font-size: 1rem;
+}
+
+.tech ul li i{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+}
